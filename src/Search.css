@@ -1,0 +1,31 @@
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search input{
+    padding:15px 20px  ;
+    width: 100%;
+    font-size: 20px;
+    height: 10%;
+    border: 3px solid black;
+    transition: all 0.3s ease-in-out;
+
+}
+.serach-top{
+    width: 30%;
+}
+.serah-result{
+    width: 86%;
+    background-color: white;
+    margin-top: 10px;
+}
+.serah-result div{
+    width: 100%;
+    padding: 10px 25px;
+    background-color:white;
+}
+.serah-result div:hover{
+    background-color: #f0f0f0;
+    transform: translateX(1px);
+}
